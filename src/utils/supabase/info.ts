@@ -1,6 +1,3 @@
-// Supabase configuration
-
-const supabaseUrl = 'https://<your-project-id>.supabase.co';
-const supabaseAnonKey = '<your-anon-key>';
-
-export { supabaseUrl, supabaseAnonKey };
+const SUPABASE_URL = 'https://YOUR_SUPABASE_URL.supabase.co';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxhYW1pandlanBhYXFpa2twdXlpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM3NzMzNDIsImV4cCI6MjA4OTM0OTM0Mn0.qbLzMbUv5G6scGc7uGZIIx5qSrcTsR9UYK0et6uUXIM';
+const SUPABASE_PROJECT_ID = 'laamijwejpaaqikkpuyi';
