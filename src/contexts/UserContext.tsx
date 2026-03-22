@@ -1,6 +1,6 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { getSupabaseClient, injectSupabaseSession } from '../utils/supabase/client';
-import { publicAnonKey, projectId } from '../utils/supabase/info';
+import { supabase } from '../utils/supabase/client';
 
 const supabase = getSupabaseClient();
 
