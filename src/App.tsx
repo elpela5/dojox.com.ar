@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Trophy, Users, BarChart3, Swords, UserCircle, Settings, Menu, X, LogOut, Package, Heart, Shield } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { UserProvider, useUser } from './contexts/UserContext';
 import { SyncProvider } from './contexts/SyncContext';
 import { Auth } from './components/Auth';
@@ -198,6 +199,7 @@ export default function App() {
     <UserProvider>
       <SyncProvider>
         <AppContent />
+        <SpeedInsights />
       </SyncProvider>
     </UserProvider>
   );
